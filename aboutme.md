@@ -1,16 +1,16 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Обо мне
+subtitle: Почему ты хочешь пойти со мной на свидание? 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Меня зовут Иньиго Монтойя. У меня есть следующие качества:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- Я качаю большие усы
+- Я очень предан своей семье
 
-What else do you need?
+Что еще нужно?
 
 ### Моя история
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Чтобы быть честным, сейчас у меня проблемы с запоминанием, так почему бы вам просто не посмотреть [мой фильм](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) и он ответит **все** Ваши вопросы.
