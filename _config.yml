@@ -65,7 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: Этот сайт является виртуальным доказательством того, что я Awesome
 
 # --- General options --- #
 
@@ -186,7 +186,7 @@ date_format: "%B %-d, %Y"
 
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
-# Output options (more information on Jekyll's site)
+# Варианты вывода (подробнее на сайте Джекила)
 timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
@@ -205,14 +205,14 @@ defaults:
     values:
       layout: "post"
       comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      social-share: true # добавить кнопки обмена социальными медиа для всех сообщений в блоге
   -
     scope:
-      path: "" # any file that's not a post will be a "page" layout by default
+      path: "" # Любой файл, который не является сообщением, будет макетом «страницы» по умолчанию
     values:
       layout: "page"
 
-# Exclude these files from production site
+# Исключите эти файлы с производственного сайта
 exclude:
   - CHANGELOG.md
   - CNAME
