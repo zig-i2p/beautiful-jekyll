@@ -1,4 +1,4 @@
-# User interface text and labels
+# Текст и метки пользовательского интерфейса
 
 # English (default)
 # -----------------
@@ -249,6 +249,14 @@ ru: &DEFAULT_RU
   comment_success_msg        : "Спасибо за Ваш комментарий! Он будет опубликован на сайте после проверки."
   comment_error_msg          : "К сожалению, произошла ошибка с отправкой комментария. Пожалуйста, убедитесь, что все обязательные поля заполнены и попытайтесь снова."
 ru-RU:
+  <<: *DEFAULT_RU
+ru-US:
+  <<: *DEFAULT_RU
+ru-CA:
+  <<: *DEFAULT_RU
+ru-GB:
+  <<: *DEFAULT_RU
+ru-AU:
   <<: *DEFAULT_RU
 
 # Lithuanian / Lietuviškai
