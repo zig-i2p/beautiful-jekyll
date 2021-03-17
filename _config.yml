@@ -53,37 +53,38 @@ social-network-links:
 #  snapchat: deanat78
 #  instagram: deanat78
 #  spotify: yourname
-#  telephone: +14159998888
+   telephone: +14159998888
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
-#  telegram: yourname
+   telegram: @aQEPrkdpwQy4jHcDbU7F
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
 
-# If you want to show a link to an RSS in the footer, add the site description here.
-# If you don't want to show an RSS link, remove the following line.
+# Если вы хотите показать ссылку на RSS в footer, добавить описание сайта здесь.
+# Если вы не хотите показывать RSS-ссылку, удалите следующую строку.
 rss-description: Этот сайт является виртуальным доказательством того, что я Awesome
 
 # --- General options --- #
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
+  telegram: true
 
-# How to display the link to your website in the footer
-# Remove this if you don't want a link in the footer
+# Как отобразить ссылку на ваш сайт в footer
+# Удалите это, если вы не хотите ссылку в footer
 url-pretty: "zig-i2p.github.io"
 
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
+# Длина слова выдержки - Truncate выдержка каждого столба на странице подачи к заданное число слов
 excerpt_length: 50
 
-# Whether or not to show an excerpt for every blog post in the feed page
+# Показывать или не показывать выдержку для каждого блога на странице канала
 feed_show_excerpt: true
 
 # Whether or not to show a list of tags below each post preview in the feed page
@@ -187,7 +188,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Варианты вывода (подробнее на сайте Джекила)
-timezone: "America/Toronto"
+timezone: "Europe/Moscow"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
