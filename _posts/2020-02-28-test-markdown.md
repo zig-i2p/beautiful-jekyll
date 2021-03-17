@@ -1,38 +1,39 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
+title: Образец блога
+subtitle: Каждая должность также имеет подзаголовок
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Это демо-пост, чтобы показать вам, как писать сообщения в блоге с разметкой.  Я настоятельно призываю вас [выдели 5 минут, чтобы узнать, как написать в Markdown](https://markdowntutorial.com/) - Это научит вас, как превратить обычный текст в
+bold/italics/headings/tables/etc.
 
-**Here is some bold text**
+**Вот некоторые примеры текста**
 
-## Here is a secondary heading
+## Вот второстепенный заголовок
 
-Here's a useless table:
+Вот бесполезная таблица:
 
-| Number | Next number | Previous number |
+| Номер | Следующий номер | Предыдущий номер |
 | :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+| Пять | Шесть | Четыре |
+| Десять | Одиннадцать | Девять |
+| Семь | Восемь | Шесть |
+| Два | Три | Один |
 
 
-How about a yummy crepe?
+Как насчет вкусного крепа?
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
-It can also be centered!
+Он также может быть по центру!
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
 
-Here's a code chunk:
+Вот фрагмент кода:
 
 ~~~
 var foo = function(x) {
@@ -41,7 +42,7 @@ var foo = function(x) {
 foo(3)
 ~~~
 
-And here is the same code with syntax highlighting:
+А вот тот же код с синтаксисом:
 
 ```javascript
 var foo = function(x) {
@@ -50,7 +51,7 @@ var foo = function(x) {
 foo(3)
 ```
 
-And here is the same code yet again but with line numbers:
+И вот тот же код еще раз, но с номерами строк:
 
 {% highlight javascript linenos %}
 var foo = function(x) {
@@ -59,20 +60,20 @@ var foo = function(x) {
 foo(3)
 {% endhighlight %}
 
-## Boxes
-You can add notification, warning and error boxes like this:
+## Коробки
+Вы можете добавить уведомления, предупреждения и ошибки коробки, как это:
 
-### Notification
+### Уведомления
 
 {: .box-note}
-**Note:** This is a notification box.
+**Примечание:** Это окно уведомлений.
 
-### Warning
+### Предупреждение
 
 {: .box-warning}
-**Warning:** This is a warning box.
+**Предупреждение:** Это предупреждающий ящик.
 
-### Error
+### Ошибка
 
 {: .box-error}
-**Error:** This is an error box.
+**Ошибка:** Это окно ошибок.
